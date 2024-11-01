@@ -1,0 +1,219 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.smart-accordion-settings {
+  margin: 20px 0;
+}
+.smart-accordion-settings .option-box {
+  margin: 10px 0;
+  padding: 10px;
+}
+.smart-accordion-settings .option-box:hover {}
+.smart-accordion-settings .option-box .option-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.smart-accordion-settings .option-box .option-info {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+.smart-accordion-settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.smart-accordion-settings ul.tab-nav li {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+}
+.smart-accordion-settings ul.tab-nav li.active {
+  background: #0073aa;
+  font-weight: bold;
+  color: #fff;
+}
+.smart-accordion-settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.smart-accordion-settings ul.box li.tab-box {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  display: none;
+  margin: 0;
+  width: 100%;
+}
+.smart-accordion-settings .new_user_profile_social {
+  margin: 15px 5px;
+}
+.smart-accordion-settings ul.voting-bg-img-list {}
+.smart-accordion-settings ul.voting-bg-img-list li {
+  display: inline-block;
+  margin: 5px;
+}
+.smart-accordion-settings ul.voting-bg-img-list li.bg-selected {}
+.smart-accordion-settings ul.voting-bg-img-list li img {
+  border: 2px solid #ffffff;
+}
+.smart-accordion-settings ul.voting-bg-img-list li.bg-selected img {
+  border: 2px solid #ff5a11;
+}
+.smart-accordion-settings h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+.smart-accordion-settings .expandable {}
+.smart-accordion-settings .expandable .items {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  margin: 2px 0;
+}
+.smart-accordion-settings .expandable .items.ui-sortable-helper {
+  border: 1px dashed rgb(153, 153, 153);
+}
+.smart-accordion-settings .expandable .header {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  padding: 5px;
+}
+.smart-accordion-settings .expandable .active .options {
+  display: block;
+}
+.smart-accordion-settings .expandable .options {
+  background: none repeat scroll 0 0 rgb(240, 240, 240);
+  display: none;
+  padding: 10px;
+}
+
+@media all and (max-width: 799px) {
+  .smart-accordion-settings ul.tab-nav li {
+    display: block;
+    float: none;
+  }
+  .smart-accordion-settings ul.tab-nav li.active {
+    font-weight: bold;
+  }
+  .smart-accordion-settings .pricing-table .column {
+    display: block;
+    float: none;
+    width: 100%;
+    border-right: 1px solid #ff9601;
+    margin: 50px 0;
+  }
+}
+
+.smart-accordion-settings .option-box span.prohints a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+.smart-review {
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+}
+.smart-review a.spbtn {
+    float: left;
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+.smart-review a.ratebtn {
+    float: right;
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+.smart-accordion-customize-area{
+  display: block;
+  overflow: hidden;
+}
+.smart-accordion-customize-inner{
+    display: block;
+  overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.smart-accordion-customize-inner:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.smart-accordion-customize-inner.extra-border {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.smart-accordion-heading-area{
+    width: 190px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.smart-accordion-customize-area span.sub-heading{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  font-weight: bold;
+}
+.smart-accordion-customize-area span.sub-description{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  line-height: 24px;
+}
+.smart-accordion-select-items{
+    display: block;
+    overflow: hidden;
+    margin-right: 0px;
+}
+
+select#sf_ac_orderby_list, #sf_ac_order_list, #sf_ac_title_fontsize, #sf_ac_title_text_transform, #sf_ac_title_font_style, #sf_ac_title_alignment, #sf_ac_content_padding, #sf_ac_icon_showhide, #sf_ac_icon_positions, #sf_ac_header_closeable, #sf_ac_closeother_ac, #sf_ac_slide_speeds, #sf_ac_items_autoopen, #sf_ac_margin_btn_items, #sf_ac_content_fonts_size, #sf_ac_style_list, #sf_ac_items_plusicons, #sf_ac_items_minusicons{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 165px;
+    text-align: center;
+    box-shadow: none;
+    outline: none;
+    margin-top: 15px;
+}
+select#opacity{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 165px;
+    text-align: center;
+    box-shadow: none;
+    outline: none;
+}
+#teamultimate_designation, #teamultimate_facebook, #teamultimate_twitter, #teamultimate_dribbble, #teamultimate_linkedin, #teamultimate_emailaddress, #teamultimate_contactnumber{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: none;
+    outline: none;
+    margin-top: 15px;
+}
